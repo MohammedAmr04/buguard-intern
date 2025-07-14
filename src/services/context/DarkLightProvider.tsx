@@ -14,7 +14,7 @@ interface DarkLightContextType {
   IsDark: boolean;
 }
 
-export const DarkLightContext = createContext<DarkLightContextType | undefined>(
+const DarkLightContext = createContext<DarkLightContextType | undefined>(
   undefined
 );
 
